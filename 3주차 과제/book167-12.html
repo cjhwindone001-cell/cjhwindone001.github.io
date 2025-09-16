@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>167페이지 12번</title>
+     <style>
+    .line {
+      border: none;
+      height: 1px;
+      background-color: gray;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+    <form>
+    <fieldset style="display:inline-block">
+        <h1><strong>프런트엔드 개발자 지원서</strong></h1>
+        <br>
+        <p>HTML, CSS, 자바스크립트의 기술을 이해하고 실무 경험이 있는 분을 찾습니다.</p>
+        <hr class="line">
+        <h3><strong>개인 정보</strong></h3>
+        <br>
+        <label for="name">이름 <input type="name" name="name" id="name" placeholder="공백없이 입력하세요"></label>
+        <br>
+        <label for="tel">연락처 <input type="=tel" name="tel" id="tel"></label>
+        <br>
+        <h3><strong>지원 분야</strong></h3>
+        <input type="radio" name="jiwon" id="pub" value="pub"><label for="pub">웹 퍼블리싱</label>
+        <br>
+        <input type="radio" name="jiwon" id="app" value="app"><label for="app">웹 애플리케이션 개발</label>
+        <br>
+        <input type="radio" name="jiwon" id="fix" value="fix"><label for="fix">개발 환경 개선</label>
+        <br>
+        <h3><strong>지원 동기</strong></h3>
+        <textarea name="donggi" id="donggi" cols="60" rows="5" placeholder="본사 지원 동기를 간략히 써주세요"></textarea>
+        <br>
+        <input type="submit" value="접수하기">
+        <input type="reset" value="다시 쓰기">
+    </fieldset>
+    </form>
+</body>
+</html>
