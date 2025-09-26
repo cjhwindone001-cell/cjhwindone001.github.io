@@ -1,0 +1,17 @@
+@charset "utf-8";
+caption{
+    caption-side: bottom;
+    text-align: right;
+}
+td, th, table{
+    border: solid 1px #000;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.accent{
+    background-color: #e5f6f6;
+}
+.main{
+    font-weight: bold;
+    text-align: center;
+}
