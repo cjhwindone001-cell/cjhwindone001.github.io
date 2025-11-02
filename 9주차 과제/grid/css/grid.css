@@ -1,0 +1,28 @@
+.gallery {
+    width: 700px;
+    margin: 20px auto;
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+    "photo1 photo1 photo2"
+    "photo1 photo1 photo3"
+    "photo4 photo5 photo6";
+}
+.photo1 {
+    grid-area: photo1;
+}
+.photo2 {
+    grid-area: photo2;
+}
+.photo3 {
+    grid-area: photo3;
+}
+.photo4 {
+    grid-area: photo4;
+}
+.photo5 {
+    grid-area: photo5;
+}
+.photo6 {
+    grid-area: photo6;
+}
